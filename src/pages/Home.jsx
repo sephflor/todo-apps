@@ -11,7 +11,7 @@ function Home({
 }) {
   return (
   <div className="app">
-      <h1>My Todo App</h1> 
+      <h1>My To-do App</h1> 
       <AddTodoForm onAdd={onAddTodoForm}/>
       <div className="filters"> 
         <button onClick={() => setFilter("all")}>All</button> 
